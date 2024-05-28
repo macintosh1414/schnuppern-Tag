@@ -1,0 +1,68 @@
+.global-container{
+
+    background-color: rgb(173, 217, 230);
+}
+.title{
+    padding: 15px;
+    color: rgb(0, 51, 102);
+    text-align: center;
+
+}
+.menu-title{
+    
+    display: flex;
+    color: rgb(0, 51, 102);
+    justify-content: space-around;
+}
+.menu{
+    
+    display: flex;
+    justify-content: center;
+}
+.menu-container-essen{
+    
+    width: 1000px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(228, 239, 243);
+    border: 2px solid black;
+    align-items: center;
+    
+}
+.menu-container-trinken{
+    
+    width: 300px;
+    padding: 25px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(228, 239, 243);
+    border: 2px solid black;
+    align-items: center;
+  
+}
+.rabatt{
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    margin: 20px;
+    border-color: orange;
+    padding: 20px;
+    font-size: 15px;
+    
+    
+}
+.button{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.preise{
+    list-style-type: none;
+}
+
+
